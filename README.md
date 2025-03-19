@@ -1,12 +1,3 @@
-# 8_Puzzle_Extended
-
-
-## Run the program
-
-In the cmd, compile in the exact order: javac Block.java Node.java Program.java
-
-To run, in the cmd type: java Program.java
-
 # 8-Puzzle Solver with UCS and A*
 
 This repository contains an implementation of an 8-Puzzle solver using Uniform Cost Search (UCS) and A* search algorithms. This project was completed as an assignment for the Artificial Intelligence course at the Department of Computer Science and Engineering, University of Ioannina, Spring 2024.
@@ -16,7 +7,7 @@ This repository contains an implementation of an 8-Puzzle solver using Uniform C
 The 8-Puzzle is a classic problem in artificial intelligence, involving sliding numbered tiles on a 3x3 grid to reach a goal state. This project extends the standard 8-Puzzle by implementing two search algorithms:
 
 * **Uniform Cost Search (UCS):** A graph search algorithm that explores nodes in order of increasing cost.
-* **A* Search:** An informed search algorithm that uses a heuristic function to estimate the cost to reach the goal.
+* **A\* Search:** An informed search algorithm that uses a heuristic function to estimate the cost to reach the goal.
 
 **Algorithms Implemented:**
 
