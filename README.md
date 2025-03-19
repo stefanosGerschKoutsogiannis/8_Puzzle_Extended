@@ -1,6 +1,6 @@
 # 8-Puzzle Solver with UCS and A*
 
-This repository contains an implementation of an 8-Puzzle solver using Uniform Cost Search (UCS) and A* search algorithms. This project was completed as an assignment for the Artificial Intelligence course at the Department of Computer Science and Engineering, University of Ioannina, Spring 2024.
+This repository contains an implementation of a solver for an extension of the 8-Puzzle game, utilizing Uniform Cost Search (UCS) and A* search algorithms. This project was completed as an assignment for the Artificial Intelligence course at the Department of Computer Science and Engineering, University of Ioannina, Spring 2024.
 
 **Project Description:**
 
@@ -33,7 +33,7 @@ java Program.java
 **Implementation Notes and Known Limitations:**
 
 * **Heap Capacity:** The current implementation uses a fixed-size heap, which may limit the search depth for complex puzzle configurations. Consequently, the solver may not find solutions for very challenging initial states due to heap overflow.
-* **Heuristic Choice:** Previous attempts with other heuristic functions proved less effective. The Chebyshev distance was adopted to improve the performance and accuracy of the A\* search.
+* **Heuristic Choice:** The current heuristic function used(Euclidean distance) is not an admissible heuristic function. The Chebyshev distance must be implemented.
 
 **Course Information:**
 
