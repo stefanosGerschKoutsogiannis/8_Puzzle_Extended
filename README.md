@@ -18,7 +18,7 @@ The 8-Puzzle is a classic problem in artificial intelligence, involving sliding 
 
 1.  Clone the repository.
 ```sh
-git clone
+git clone https://github.com/stefanosGerschKoutsogiannis/8_Puzzle_Extended.git
 ```
 2. Compile in the following order
 ```sh 
